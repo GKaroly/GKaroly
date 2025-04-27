@@ -4,43 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Üdvözöllek az oldalamon!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             text-align: center;
+            line-height: 1.6;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 2rem 0;
+            background-color: #333;
+            color: #fff;
+            padding: 5rem 0;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        header p {
+            font-size: 1.2rem;
         }
         main {
-            padding: 2rem;
+            padding: 3rem 1.5rem;
         }
         footer {
-            margin-top: 2rem;
-            color: #777;
+            background-color: #333;
+            color: #fff;
+            padding: 1.5rem 0;
             font-size: 0.9rem;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .content-section {
+            margin-bottom: 3rem;
+        }
+        .content-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content-section p {
+            font-size: 1rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Helló Világ!</h1>
-    <p>Ez a GitHub Pages weboldalam 🎉</p>
+    <h1>Helló, üdvözöllek az oldalamon!</h1>
+    <p>Ez egy letisztult és minimalista bemutatkozó oldal.</p>
 </header>
 
 <main>
-    <h2>Bemutatkozás</h2>
-    <p>Szia! Itt hamarosan még több tartalom lesz.</p>
+    <div class="content-section">
+        <h2>Rólam</h2>
+        <p>Ez a hely, ahol bemutathatod magad. Leírhatod, ki vagy, mit csinálsz, mi a szenvedélyed. Egy egyszerű, de tiszta dizájn segít fókuszálni a tartalomra.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>Projektek</h2>
+        <p>Itt mutathatod be a legjobb munkáidat, fejlesztéseidet vagy bármit, amit szeretnél megosztani. Lehet akár kód, design vagy egyéb kreatív munkák.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>Kapcsolat</h2>
+        <p>Ha szeretnél kapcsolatba lépni velem, keresd meg az alábbi linken: <a href="mailto:email@example.com">email@example.com</a></p>
+    </div>
 </main>
 
 <footer>
-    &copy; 2025 - Gkaroly
+    <p>&copy; 2025 - Minden jog fenntartva</p>
 </footer>
 
 </body>
